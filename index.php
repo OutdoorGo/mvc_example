@@ -19,7 +19,10 @@ switch ($action) {
     case 'login':
         $controller->login();
         break;
-   
+    case 'connected':
+        $controller->displayUSerConnected();
+        break;
+
     default:
         // Handle other actions or errors
         break;
